@@ -27,6 +27,7 @@ public class Curso {
         this.estudiantesEncimaPromedio=estudiantes;
     }
     public double getPromedio(){
+        //este bloque de codigo se debe implementar en los metodos set
         double sumar=0;
         int elementos=0;
         for(int i=0;i<12;i++){
@@ -38,6 +39,7 @@ public class Curso {
         return this.promedio;
     }
     public int getnroEstudiantesEncimaPromedio(){
+        //este bloque de codigo se debe implementar en los metodos set
         int reprobados=0;
         for(int i=0;i<12;i++){
             if(notas[i]>=promedio){
